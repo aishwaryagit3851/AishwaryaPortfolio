@@ -53,9 +53,9 @@ function Contact() {
     console.log(data.item);
   };
   return (
-    <div className="contact pt-5 flex flex-col align-center">
+    <div className="contact flex flex-col align-center">
       <div className="text-center">
-        <h3 className="text-xxl sm:text-2xl md:text-4xl font-bold heading">
+        <h3 className="text-xl sm:text-2xl md:text-4xl font-bold heading">
           Contact Me
         </h3>
       </div>
@@ -118,7 +118,7 @@ function Contact() {
             onChange={(e) => handleInputChange("message", e.target.value)}
             required
           ></textarea>
-          <input type="submit" className="submit btn" value="send" />
+          <input type="submit" className="submit btn" value="Send" />
         </form>
       </div>
     </div>

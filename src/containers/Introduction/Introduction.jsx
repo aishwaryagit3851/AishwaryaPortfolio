@@ -34,10 +34,10 @@ function Introduction() {
           <p className="text-2xl sm:text-3xl md:text-5xl font-bold text-black-1000 p-2">
             Hey Hi! I am Aishwarya
           </p>
-          <div className="text-xl sm:text-2xl">
-            <span>I am a passionate</span>
+          <div className="text-lg sm:text-2xl">
+            <span className="text-lg sm:text-2xl">I am a passionate</span>
             <span className="animate-text px-2">{roles[currentIndex]}</span>
-            <span>
+            <span className="text-lg sm:text-2xl">
               with extensive experience to create Website design, Frontend and
               backend for applications and many more.....
             </span>
