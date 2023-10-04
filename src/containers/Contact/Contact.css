@@ -1,0 +1,33 @@
+.contact {
+  width: 50%;
+  margin: 0% 25% 5% 25%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.submit {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #ff1361 100%
+  );
+  width: fit-content;
+  color: white;
+  padding: 1% 3%;
+  margin: 2% 0%;
+  display: flex;
+}
+
+label {
+  font-weight: 400;
+  font-size: large;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

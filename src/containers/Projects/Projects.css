@@ -1,0 +1,27 @@
+.projects-container {
+  background-color: white;
+  box-shadow: 20px 10px 30px hsla(0, 0%, 0%, 0.25);
+}
+.active {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #ff1361 100%
+  );
+  box-shadow: 20px 20px 30px hsla(0, 0%, 0%, 0.25);
+}
+.projects {
+  box-shadow: 20px 20px 30px hsla(0, 0%, 0%, 0.25);
+}
+/* .projects:hover {
+  opacity: 0.5;
+} */
+
+.button {
+  display: none;
+}
+.projects:hover > .button {
+  display: inline;
+}

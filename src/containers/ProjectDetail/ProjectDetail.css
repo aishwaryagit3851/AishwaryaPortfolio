@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+.heading {
+  font-family: "Libre Baskerviil";
+}
+.learn-more {
+  background-image: linear-gradient(
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #ff1361 100%
+  );
+
+  color: white;
+  display: inline-block;
+}

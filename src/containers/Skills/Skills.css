@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+.heading {
+  font-family: "Libre Baskerviil";
+}
+
+.skills {
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #ff1361 100%
+  );
+
+  color: white;
+  height: 250px;
+  width: 310px;
+  transform: rotate(0);
+  box-shadow: 20px 20px 30px hsla(0, 0%, 0%, 0.25);
+}
+
+.skill-container:hover {
+  perspective: 1500px;
+}
+.skills:hover {
+  transform: rotateX(10deg) rotateY(10deg) rotateZ(10deg);
+  box-shadow: 20px 10px 30px hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.25em;
+  transition: 0.3s;
+}
+@media screen and (min-width: 641px) and (max-width: 980px) {
+  .skill-section {
+    height: 640px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .skill-section {
+    height: 871px;
+  }
+}

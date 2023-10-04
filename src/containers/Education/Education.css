@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+.heading {
+  font-family: "Libre Baskerviil";
+}
+
+.timeline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #ff1361 100%
+  );
+  width: 890px;
+
+  box-shadow: 2px 10px 30px hsla(0, 0%, 0%, 0.25);
+  border-radius: 0.25em;
+}
+
+/* .exp:hover{
+  
+
+} */
+h3 {
+  padding-top: 0.25em;
+}
+/* .verticalTimeline {
+  width: auto !important ;
+} */
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  /* padding: 2em 3em !important; */
+  padding: 1em !important;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 0.5em 0 0.5em 0;
+}
+.workButton {
+  background-color: #0ac593;
+  color: white;
+}
+
+.workButton:hover {
+  background-color: white;
+  border: 2px solid #0ac593;
+  color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: white;
+    margin: 0em 0.5em 0em 0.5em;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1170px) {
+  .timeline {
+    width: 500px;
+  }
+  .verticalTimelineElement {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .timeline {
+    width: 350px;
+  }
+  .verticalTimelineElement {
+    width: 330px;
+  }
+}
